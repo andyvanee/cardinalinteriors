@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   color: #555;
   background-color: #F5F5F5;
   font-family: Helvetica Neue, Helvetica, sans-serif;
@@ -6,5 +7,5 @@ body, html {
 
 .title {
   text-align: center;
-  margin-top: 30%;
+  margin-top: 15%;
 }
