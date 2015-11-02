@@ -1,11 +1,30 @@
 body,
 html {
   color: #555;
-  background-color: #F5F5F5;
+  background-color: #ECE6DD;
   font-family: Helvetica Neue, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4 {
+  margin: 1em 0 0.5em;
+}
+
+h1, h2, h3, h4, a:link {
+  color: #CC493D;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 1em;
+  line-height: 1.6;
+}
+
 .title {
-  text-align: center;
-  margin-top: 15%;
+  margin-top: 5%;
+}
+
+.content-wrapper {
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 0 2em;
 }
