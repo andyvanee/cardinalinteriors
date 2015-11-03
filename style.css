@@ -42,6 +42,14 @@ a:visited {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+.title {
+  font-family: Roboto, sans-serif;
+}
+
 p {
   margin: 0 0 1em;
 }
@@ -51,7 +59,6 @@ p {
   font-size: 25px;
   line-height: 38px;
   font-weight: 300;
-  font-family: Roboto, sans-serif;
   padding: 16px 0;
   background-color: #FFF;
   border-bottom: 1px solid #eee;
