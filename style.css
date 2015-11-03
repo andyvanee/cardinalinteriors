@@ -48,8 +48,10 @@ p {
 
 .title {
   margin: 0;
-  font-size: 1.4em;
-  font-weight: bold;
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
   padding: 16px 0;
   background-color: #FFF;
   border-bottom: 1px solid #eee;
@@ -58,6 +60,16 @@ p {
   left: 0;
   position: fixed;
   width: 100%;
+}
+
+#logo {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-image: url(img/cardinal-badge.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
 }
 
 .content-wrapper {
