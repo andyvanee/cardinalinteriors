@@ -16,6 +16,10 @@ html {
   box-sizing: border-box;
 }
 
+section {
+  display: block;
+}
+
 .well {
   background-color: #FDFDFC;
   border: 1px solid #F3F1ED;
@@ -83,6 +87,22 @@ p {
 .welcome {
   max-width: 42em;
   margin: 4em auto;
+}
+
+.call-to-action {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+a.cta {
+  display: inline-block;
+  padding: 4px 28px;
+  background-color: #CC493D;
+  border-radius: 4px;
+  margin: 0 4px;
+  color: white;
 }
 
 @media (min-width: 767px) {
