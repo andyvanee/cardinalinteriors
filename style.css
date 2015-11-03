@@ -96,6 +96,10 @@ p {
   letter-spacing: 0.02em;
 }
 
+.call-to-action-large {
+  font-size: 1.3em;
+}
+
 a.cta {
   display: inline-block;
   padding: 4px 28px;
